@@ -24,33 +24,37 @@ class Home extends React.Component{
 
     componentDidMount=()=>{
         this.checkUserAuth();
-      }
+       
+    }
 
-    checkUserAuth=()=>{
+    checkUserAuth=async()=>{
+
+        const dataURL=await axios.get(`http://localhost:3010/`);
+        const data=dataURL.data;
+        console.log(data);
+        this.setState({
+            users:data,
+        })
         
         const { user } = this.props.auth0;
         const email= user.email;
-        let x = this.state.users.filter((user)=>{return (email == user.email)});
+        let x = this.state.users.filter((user)=>{return (email === user.email)});
         console.log(x);
 
-        if (x !== undefined ){
-
+        if (x.length !== 0 ){
               this.setState({
                   show:  false,
               });
               console.log("defined");
-        }else{
-            
-            // console.log(this.state.users);
-           
+        }else{           
+            // console.log(this.state.users);  
             this.setState({
                 show:  true,
             })
             // console.log("undefined user");    
-
         }
-
     }
+    
 
     saveUsersInfo=async(event)=>{
         event.preventDefault();
@@ -75,8 +79,6 @@ class Home extends React.Component{
 
         console.log(addNewUser);
         console.log(this.state.users);
-
-
     }
 
 
