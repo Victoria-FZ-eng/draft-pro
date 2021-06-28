@@ -4,6 +4,7 @@ import Footer from './Footer';
 // import LogIn from "./LoginButton.js";
 import { withAuth0 } from '@auth0/auth0-react';
 import HomePage from './HomePage';
+import About from './About';
 
 
 import {
@@ -35,8 +36,15 @@ class App extends React.Component {
     </div>
 
   </Route> */}
-  <Route path="">
-
+   <Route path="/Home">
+   <HomePage />
+  </Route>
+  
+  <Route path="/About">
+   <About />
+  </Route>
+  <Route path="/Profile">
+   <Profile />
   </Route>
 
 

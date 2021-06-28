@@ -2,39 +2,52 @@ import React from 'react';
 //import Button from 'react-bootstrap/Button';
 import { withAuth0 } from '@auth0/auth0-react';
 import Carousel from 'react-bootstrap/Carousel';
+import One from './imgv/1140-healthy-lifestyle-beliefs-behaviors.imgcache.rev.web.700.403.jpg';
+import Two from './imgv/carl-barcelo-nqUHQkuVj3c-unsplash.jpg';
+import Three from './imgv/john-arano-h4i9G-de7Po-unsplash.jpg';
+import Four from './imgv/plate_lunch_pork_ginger_and_eggs_203768.jpg';
+import Five from './imgv/Well-7-Healthy-Habits-4p-3p-2p-B_web1.jpg';
+import Six from './imgv/caroline-attwood-bpPTlXWTOvg-unsplash.jpg';
+import Seven from './imgv/istockphoto-843912990-640x640.jpg';
+import Eight from './imgv/ola-mishchenko-VRB1LJoTZ6w-unsplash.jpg';
+import Nine from './imgv/1023270_basketball-hoop-high-quality-resolution-wallpapers-sports_1920x1080_h.jpg';
+import './Home.css'
+
+
+
 
 
 class Slider extends React.Component {
     render() {
         return (
             <>
-                <Carousel fade>
-                    <Carousel.Item>
+                <Carousel fade className="carousel" controls={false}>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/1140-healthy-lifestyle-beliefs-behaviors.imgcache.rev.web.700.403.jpg"
+                            src={One}
                             alt="First slide"
                         />
                         <Carousel.Caption>
                             <h3>Healthy Lifestyle</h3>
                             
                         </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
+                    </Carousel.Item >
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/Healthy-Lifestyle.jpg"
+                            src={Two}
                             alt="Second slide"
                         />
 
                         <Carousel.Caption>
                             <h3>Healthy Food with Exersicing </h3>
                         </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
+                    </Carousel.Item >
+                    <Carousel.Item interval={2000}> 
                         <img
                             className="d-block w-100"
-                            src="../imgv/61AKZhEW-pL._AC_SL1100_.jpg"
+                            src={Three}
                             alt="Third slide"
                         />
 
@@ -44,47 +57,47 @@ class Slider extends React.Component {
                         </Carousel.Caption>
                     </Carousel.Item>
 
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/1023270_basketball-hoop-high-quality-resolution-wallpapers-sports_1920x1080_h.jpg"
+                            src={Four}
                             alt="Fourth slide"
                         />
                     </Carousel.Item>
 
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/Well-7-Healthy-Habits-4p-3p-2p-B_web1.jpg"
+                            src={Five}
                             alt="Fifth slide"
                         />
                     </Carousel.Item>
 
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/depositphotos_249678228-stock-photo-plate-healthy-food-breakfast-lunch.jpg"
+                            src={Six}
                             alt="Sixth slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/istockphoto-843912990-640x640.jpg"
+                            src={Seven}
                             alt="Seventh slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/plate_lunch_pork_ginger_and_eggs_203768.jpg"
+                            src={Eight}
                             alt="Eighth slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item>
+                    <Carousel.Item interval={2000}>
                         <img
                             className="d-block w-100"
-                            src="../imgv/swimming_figures_hd_picture_168203.jpg"
+                            src={Nine}
                             alt="Ninth slide"
                         />
                     </Carousel.Item>

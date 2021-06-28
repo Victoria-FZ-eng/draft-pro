@@ -48,12 +48,15 @@
   background-color: #F0EBCC;
 }
 .foot{
+  
   background-color: #F0EBCC;
+  
 }
 
 .link{
   font-size: larger;
   color: #7D5A50;
+  text-decoration: none;
 
   margin-top: 4rem;
   margin-left: 2.5rem;
@@ -62,4 +65,23 @@
 .link:hover{
   color:#B6C867;
   transform: scale(1.5); 
+}
+
+.btn{
+  margin-top: 1.7rem;
+  margin-left: 10rem;
+
+}
+
+.btn:hover{
+  transform: scale(1.2); 
+}
+
+.itm{
+  margin-top: 4rem;
+  margin-left: 2.5rem;
+}
+.itm:hover{
+  color:#B6C867;
+  transform: scale(1.5);
 }
