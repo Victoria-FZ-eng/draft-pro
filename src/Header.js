@@ -13,8 +13,8 @@ class Header extends React.Component {
   
   render() {
     return(
-      <div className="div">
-      <Nav className="text-center mt-4 mb-4" >
+      
+      <Nav  className="div">
         <img src={logo} alt="Logo" className="logo"/>
         <Navbar.Brand className="brand">AVOCADO</Navbar.Brand>
       <Nav.Item className="itm">
@@ -41,7 +41,7 @@ class Header extends React.Component {
 
       
     </Nav>
-      </div>
+      
     )
   }
 }

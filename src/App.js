@@ -23,7 +23,7 @@ class App extends React.Component {
       <>
         <Router>
 
-<Header />
+<Header className="head"/>
 <Switch>
   <Route exact path="/">
     {this.props.auth0.isAuthenticated ? <Profile /> : <HomePage />}

@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
+import { AiFillGithub} from 'react-icons/ai';
 import Image from 'react-bootstrap/Image';
 import Ahmad from './imgv/Ahmad.jpg';
 import Fadia from './imgv/Fadia.jpg';
@@ -26,7 +26,7 @@ class About extends React.Component {
                     <Card.Body>
                         <Card.Title>Roa Mustafa</Card.Title>
                         <Card.Text>
-                            <AiFillGithub/> https://github.com/RoaaMustafa
+                            <AiFillGithub/> github.com/RoaaMustafa
                         </Card.Text>
 
                     </Card.Body>
@@ -36,7 +36,7 @@ class About extends React.Component {
                     <Card.Body>
                         <Card.Title>Victoria Fares</Card.Title>
                         <Card.Text>
-                        <AiFillGithub/> https://github.com/Victoria-FZ-eng
+                        <AiFillGithub/> github.com/Victoria-FZ-eng
                         </Card.Text>
 
                     </Card.Body>
@@ -46,7 +46,7 @@ class About extends React.Component {
                     <Card.Body>
                         <Card.Title>Ahmad Abu Sailik</Card.Title>
                         <Card.Text>
-                        <AiFillGithub/> https://github.com/AhmadSailik
+                        <AiFillGithub/> github.com/AhmadSailik
                         </Card.Text>
 
                     </Card.Body>
@@ -60,7 +60,7 @@ class About extends React.Component {
                     <Card.Body>
                         <Card.Title>Nadeem Mazahreh</Card.Title>
                         <Card.Text>
-                        <AiFillGithub/> https://github.com/Nadeemmazahreh
+                        <AiFillGithub/> github.com/Nadeemmazahreh
                         </Card.Text>
 
                     </Card.Body>
@@ -70,7 +70,7 @@ class About extends React.Component {
                     <Card.Body>
                         <Card.Title>Shaheenaz Zuwayyed</Card.Title>
                         <Card.Text>
-                        <AiFillGithub/> https://github.com/shaheenaz
+                        <AiFillGithub/> github.com/shaheenaz
                         </Card.Text>
 
                     </Card.Body>
@@ -80,7 +80,7 @@ class About extends React.Component {
                     <Card.Body>
                         <Card.Title>Fadia Al-dasouqi</Card.Title>
                         <Card.Text>
-                        <AiFillGithub/> https://github.com/Al-dasouqi
+                        <AiFillGithub/> github.com/Al-dasouqi
                         </Card.Text>
 
                     </Card.Body>

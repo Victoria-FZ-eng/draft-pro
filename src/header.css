@@ -24,6 +24,7 @@
 }
 .foot{
   background-color: #F0EBCC;
+  color: #7D5A50;
 }
 .logo{
   height: 9rem;
@@ -50,8 +51,11 @@
 .foot{
   
   background-color: #F0EBCC;
+  text-align: center;
+  padding: 1rem;
   
 }
+
 
 .link{
   font-size: larger;
